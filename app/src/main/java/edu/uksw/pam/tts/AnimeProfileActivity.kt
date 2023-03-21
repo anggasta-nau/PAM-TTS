@@ -20,7 +20,6 @@ class AnimeProfileActivity : AppCompatActivity() {
         setContent {
             TTSTheme() {
                 AnimeProfileScreen(anime = anime)
-
             }
         }
     }

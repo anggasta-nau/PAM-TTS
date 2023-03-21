@@ -13,7 +13,7 @@ class SignUpContract : ActivityResultContract<String?, String?>() {
 
     override fun parseResult(resultCode: Int, intent: Intent?): String? = when{
         resultCode != Activity.RESULT_OK -> null
-        else -> intent?.getStringExtra("username")
+        else -> intent?.getStringExtra("email")
     }
 
 

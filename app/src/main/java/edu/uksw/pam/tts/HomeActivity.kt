@@ -33,8 +33,7 @@ class HomeActivity : AppCompatActivity() {
             TTSTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
+                    modifier = Modifier.fillMaxSize()
                 ) {
                     val email = getIntent().getStringExtra("email") ?: ""
                     BottomNavigationMainScreenView()

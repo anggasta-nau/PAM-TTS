@@ -1,9 +1,10 @@
 package edu.uksw.pam.tts.Data
 
 import androidx.compose.ui.Modifier
-import edu.uksw.pam.tts.ui.screens.Card
+//import edu.uksw.pam.tts.ui.screens.Card
 import android.security.identity.AccessControlProfile
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CornerSize
@@ -29,7 +30,7 @@ fun AnimeListItem(anime: AnimeDetail, navigateToProfile: (AnimeDetail) -> Unit) 
             .fillMaxWidth(),
         elevation = 5.dp,
         shape = RoundedCornerShape(corner = CornerSize(10.dp)),
-        backgroundColor = Color.Gray
+        backgroundColor = Color(11, 175, 198).copy(alpha = 0.4f)
     ) {
         Row(
             modifier = Modifier
@@ -41,7 +42,7 @@ fun AnimeListItem(anime: AnimeDetail, navigateToProfile: (AnimeDetail) -> Unit) 
                 AnimeImage(anime = anime)
                 Column(
                     modifier = Modifier
-                        .padding(16.dp)
+                        .padding(20.dp)
                         .fillMaxWidth()
                         .align(Alignment.CenterVertically)
                 ) {
@@ -51,7 +52,6 @@ fun AnimeListItem(anime: AnimeDetail, navigateToProfile: (AnimeDetail) -> Unit) 
                         style = MaterialTheme.typography.h6
                     )
                     Text(text = "Rate 4/5", style = MaterialTheme.typography.caption)
-
                 }
             }
         }
