@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AngStream</string>
+    <string name="LName">Nama Akhir</string>
+    <string name="FName">Nama Awal</string>
+    <string name="Password">Sandi</string>
+    <string name="CPaswoord">Konfirmasi Sandi</string>
+    <string name="SignUp">Daftar</string>
+    <string name="Email">Alamat Email</string>
+    <string name="Passwords">Sandi</string>
+    <string name="Login">Masuk</string>
+    <string name="remember_me">Ingat Aku</string>
+    <string name="dnthvacc">Tidak punya akun? Daftar disini!</string>
+    <string name="welcome">Selamat Datang!</string>
+    <string name="alrdyhvacc">Sudah punya akun? Masuk disini!</string>
+    <string name="category">Kategori</string>
+    <string name="release">Jadwal Rilis</string>
+    <string name="tophits">Hit Teratas</string>
+    <string name="premium">Premium</string>
+    <string name="genre">Fantasi / Aksi / Comedi</string>
+    <string name="search">Pencarian</string>
+    <string name="trend">Sedang Trending</string>
+    <string name="profile">Profil</string>
+    <string name="myprofile">Profil Saya</string>
+    <string name="overview">Ringkasan</string>
+    <string name="animelist">Daftar Anime</string>
+    <string name="following">Mengikuti</string>
+    <string name="serach">Cari Disni</string>
+    <string name="mostview">Paling Banyak Dilihat</string>
+    <string name="recopmen">Rekomendasi</string>
+    <string name="kategori">Genre: Acksi</string>
+    <string name="pplalssrch">Orang Juga Mencar</string>
+</resources>
